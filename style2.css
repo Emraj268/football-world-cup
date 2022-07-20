@@ -40,7 +40,6 @@
      height: 250px; 
   border-radius: 8px;
   padding-right: 8px;
-  
 }
 
 #option-1{
@@ -48,6 +47,7 @@
     margin-bottom: 50px;
     margin-right: 10px;
     border: 2px solid white;
+    background-color: red;
    
 }
 #option-2{
@@ -58,7 +58,7 @@
 #option-3{
     margin-top: 20px;
     border: 2px solid white;
-    background-color: red;
+   
     margin-right: 10px;
     
 }
@@ -82,21 +82,27 @@
     display: flex;
      margin:20px 140px;
 }
-.blog-img img{
+.blog-img{
     width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    /* margin: px; */
+}
+.blog-img img{
+    margin: 5px;
 }
 .gallery{
     border: 2px solid gray;
     box-shadow: 0px 4px 10px lightgray;
     border-radius: 10px;
+    padding-left: 8px;
+    padding-top: 8px;
     
 }
-.blog-text{
-    padding-left: 5px;
-}
-.fa-comment-dots{
-    margin-left: 10px;
-}
+/* .fa-comment-dots{ */
+   /* margin-left: 10px; */
+/* } */
 footer{
     background-color: black;
     color: white;
