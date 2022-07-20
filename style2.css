@@ -21,6 +21,10 @@
     background-color: red;
     color: white;
 }
+.banner-details button:hover{
+    background-color: rgb(229, 233, 3);
+    color: black;
+}
 .match-option a {
     text-decoration:none;
     display: grid;
