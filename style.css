@@ -25,6 +25,31 @@
     background-color: rgb(229, 233, 3);
     color: black;
 }
+.container
+{
+  perspective: 320px;
+}
+.btn
+{
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: 
+    #DD0000;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.btn:hover{
+  transform: rotateY(-15deg);
+  box-shadow: 0 8px 15px black;
+  background-color: #00a8ff;
+}
 .match-option a {
     text-decoration:none;
     display: grid;
@@ -131,6 +156,7 @@ span{
     .match-option a {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        
     }
 .group{
     display: grid;
@@ -175,7 +201,7 @@ span{
     .match-option{
          background-color: #fff; 
         display: flex;
-
+       
     }
     #option-3{
         background-color: #fff; 
